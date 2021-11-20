@@ -1,0 +1,87 @@
+@font-face {
+  font-family:"Quicksand";
+  src: url('../font/Quicksand-Regular.ttf') format("truetype");
+  src: url('../font/Quicksand-Regular.woff') format("woff");
+}
+
+@font-face {
+  font-family:"Quicksand Bold";
+  src: url('../font/Quicksand-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family:"Quicksand Light";
+  src: url('../font/Quicksand-Light.ttf') format("truetype");
+}
+
+* {
+	font-family: 'Quicksand' !important; 
+}
+
+h1{
+  color: rgba(242, 146, 90, 0.8);
+  font-size: 18pt;
+  font-family: "Quicksand Bold";
+  
+}
+
+
+.logo{
+	margin: 40px;
+	padding: 80px;
+  margin-bottom:-40px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  border: none;
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input[type=submit], input[type=submit]:focus{
+  
+  background-color: #ffffff;
+  color: #F2925A;
+  border: solid 1px #F2925A;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 12px;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+
+input[type=submit]:hover{
+  
+  background-color: #F2925A;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 12px;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+
+.separateur{
+  border-top: 2px solid  #fce356;
+  margin-top:30px;
+  margin-bottom:30px;
+  
+}
+
+

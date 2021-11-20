@@ -1,0 +1,185 @@
+/*Panneau de l'ajout de boisson*/
+
+.dashboard{
+	padding-bottom:30px;
+}
+
+#boissons {
+	padding:5px;
+}
+
+.selecteurBoisson{
+	padding-top: 20px;
+	display: inline-block;
+}
+
+.ajoutBoisson{
+	color: white;
+	font-size: 18px;
+	background: rgba(0, 212, 240, 0.8);
+	border-radius: 25px;
+	display:inline-block;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+select{margin: 15px;}
+
+.compteurDisplay{
+		margin-bottom: 15px;
+		
+}
+
+.compteurDisplay, .compteurDisplay button{
+text-align: center;
+}
+
+.compteurDisplay button{
+	width: 30px;
+	height:30px;
+	color: white;
+	background-color: #F2925A;
+	border: 2px solid #F2925A;
+	border-radius: 20%;
+
+}
+
+.compteurValeur{
+	display: inline-block;
+}
+
+select{
+	width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  border-bottom: 2px solid #F2925A;
+  margin-bottom: 20px;
+  display:inline-block;
+
+}
+
+.dashboard{
+width:800px; margin:0 auto;
+}
+
+
+
+
+/*compteur*/
+.affichageConsoPerso{
+	text-align: center;
+	padding: 50px;
+	border: 2px solid #F2925A;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+.infoBoisson {
+ font-size: 12px;
+ display:inline-block;
+ margin-top: 60px;
+}
+
+ul {
+	list-style: none
+}
+
+li::before {
+	content: "■"; 
+	color: #F2925A;
+	margin-right: 3px;
+}
+
+/*Panneau d'affichage de boisson*/
+
+.affichageConso{
+	display: inline-block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	width: 100%;
+	display:grid;
+	text-align: center;
+	background: rgba(242, 146, 90, 0.8);
+	color: white;
+	border-radius: 25px;
+	padding-top: 25px;
+
+}
+
+.affichageConso p{
+	text-align: center;
+}
+
+
+
+.affichageConso button{
+	background: rgba(0, 212, 240, 0.8);
+	border: none;
+	color: white;
+	padding: 8px 14px;
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+	font-size: 12px;
+	border-radius: 10px;
+	display:inline-block;
+	
+}
+
+#typeBoisson{
+	width:55% !important;
+	width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  border-bottom: 2px solid #F2925A;
+  margin-bottom: 20px;
+  display: block;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+text-align: center;
+	
+}
+table {
+	border-collapse: collapse;
+  }
+
+.rowHeader {
+	border: none;
+	border-bottom: solid 2px #F2925A;
+	text-align: center;
+	color:#F2925A;
+}
+.rowWhite{
+	color: #F2925A;
+	border: none !important;
+	text-align: center;
+}
+
+.rowBlue{
+	background-color:rgb(0, 212, 240);
+	color:white;
+	border: none !important;
+	text-align: center;
+	
+}
+
+/*message de confirmation*/
+.confirmation{
+	border: 2px solid rgb(0, 212, 240);
+	border-radius:20px;
+	padding:20px;
+	margin-top: -650px;
+	position:inline-block;
+
+}
+
